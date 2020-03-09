@@ -18,3 +18,18 @@ fish.minus(3)
 fish.times(3)
 fish.div(3.0f)  // 0.6666667, a Float
 ```
+
+## Primitive as Object
+
+```kotlin
+2.times(3)
+```
+
+## Boxing
+
+`Number` is superclass for all classes representing numeric values. Assigning value to type `Number` needs object wrapper, also called boxing.
+
+```kotlin
+val boxed: Number = 2
+boxed.toLong() * 3
+```

@@ -17,6 +17,7 @@ fish.plus(3)
 fish.minus(3)
 fish.times(3)
 fish.div(3.0f)  // 0.6666667, a Float
+fish.inc()      // increase by 1
 ```
 
 ## Primitive as Object
